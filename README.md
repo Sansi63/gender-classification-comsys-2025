@@ -9,11 +9,17 @@ This project trains a deep learning model to classify facial images as either **
 - CNN using Keras with Conv2D, MaxPooling, Flatten, and Dense layers.
 - Binary classification with sigmoid activation.
 - Trained on a dataset structured as:
+  
 train/
+
 ├── male/
+
 └── female/
+
 val/
+
 ├── male/
+
 └── female/
 
 ## 📊 Evaluation Metrics
