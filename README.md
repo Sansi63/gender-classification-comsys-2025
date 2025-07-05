@@ -79,12 +79,16 @@ This project implements a Siamese neural network for face recognition, matching 
 📊 Training Results
 Training Loss: Decreased from 0.2704 (Epoch 1) to 0.1004 (Epoch 20).
 Validation Loss: Decreased from 0.2508 (Epoch 1) to 0.2612 (Epoch 20) over 20 epochs.
+
 Training:
+
 - **Accuracy: 100%
 - **Precision: 100%
 - **Recall: 100%
 - **F1-Score: 63%
+  
 Validation:
+
 - **Accuracy: 91%
 - **Precision: 88%
 - **Recall: 85%
