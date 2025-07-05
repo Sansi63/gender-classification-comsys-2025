@@ -61,7 +61,9 @@ Run the notebook to train the model. It will automatically save as `gender_model
 ```bash 
 python test.py val/
 ```
-Face Recognition - COMSYS Hackathon 2025 (Task B)
+
+# Face Recognition - COMSYS Hackathon 2025 (Task B)
+
 📌 Overview
 This project implements a Siamese neural network for face recognition, matching clear reference images with distorted versions. It is submitted as part of Task B in the COMSYS Hackathon-5, utilizing the DeepFace library for embeddings and a custom Siamese model for similarity learning.
 
@@ -90,12 +92,21 @@ Validation:
 Model Saved: As siamese_face_matching.h5 after training.
 🚀 How to Run
 1. Install Dependencies
+   
     - Run: pip install deepface tensorflow numpy opencv-python scikit-learn
-2. Train the Model
+    
+3. Train the Model
+
     - Open image-recognition.ipynb.
+      
     -Update TRAIN_DATASET_PATH (e.g., /path/to/train) and VAL_DATASET_PATH (e.g., /path/to/val) to your dataset locations.
+   
     -Run all cells to train the model and save siamese_face_matching.h5.
-3. Test the Model
+   
+4. Test the Model
+   
     -Open test-script-img-recog.ipynb.
+   
     -Update VAL_DATASET_PATH (e.g., /path/to/val) and MODEL_PATH (e.g., /path/to/siamese_face_matching.h5) to your validation data and model locations.
+   
     -Run all cells to evaluate the model on the validation set and print accuracy, precision, and recall.
